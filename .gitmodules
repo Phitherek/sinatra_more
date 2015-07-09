@@ -1,0 +1,3 @@
+[submodule "vendor/pony"]
+	path = vendor/pony
+	url = https://github.com/benprew/pony
