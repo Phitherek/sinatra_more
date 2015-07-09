@@ -12,7 +12,7 @@ module SinatraMore
     # @mail_object.deliver
     def deliver
       @mail_attributes.reverse_merge!(:via => self.delivery_method.to_sym)
-      @mail_attributes.reverse_merge!(:smtp => @smtp_settings) if using_smtp?
+      @mail_attributes.reverse_merge!(:via_options => @smtp_settings) if using_smtp?
       self.send_mail(@mail_attributes)
     end
 

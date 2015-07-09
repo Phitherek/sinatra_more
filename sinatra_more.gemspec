@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.authors = ["Nathan Esquenazi"]
   s.email = %q{nesquena@gmail.com}
-  s.date = %q{2011-02-18}
+  s.date = %q{2015-07-09}
   s.default_executable = %q{sinatra_gen}
   s.description = %q{Expands sinatra with standard helpers and tools to allow for complex applications}
   s.summary = s.description
@@ -26,7 +26,6 @@ Gem::Specification.new do |s|
   s.add_development_dependency "webrat",     ">= 0.5.1"
   s.add_development_dependency "jeweler"
   s.add_development_dependency "builder"
-  s.add_development_dependency "tmail"
   s.add_development_dependency "xml-simple"
   s.add_development_dependency "warden"
 
